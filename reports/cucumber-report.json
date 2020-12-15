@@ -1,0 +1,100 @@
+[
+  {
+    "description": "  As a user I want to be able to SignIn\n  on Vutura's user website",
+    "elements": [
+      {
+        "id": "signin-on-the-vutura-website;user-success-login-to-website",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User Success login to website",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Browse signin page",
+            "result": {
+              "status": "passed",
+              "duration": 564200
+            },
+            "line": 8,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User fill email",
+            "result": {
+              "status": "passed",
+              "duration": 180200
+            },
+            "line": 9,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User fill password",
+            "result": {
+              "status": "passed",
+              "duration": 296200
+            },
+            "line": 10,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User click masuk button",
+            "result": {
+              "status": "passed",
+              "duration": 190800
+            },
+            "line": 11,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "User in dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 8007137100
+            },
+            "line": 12,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 112406900
+            },
+            "hidden": true,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "signin-on-the-vutura-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "SignIn on the Vutura website",
+    "tags": [],
+    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\signin.feature"
+  }
+]
