@@ -8,3 +8,6 @@ Training automating test using selenium, I do this thing because of my Lecture T
 3. Search element by `Inspect element > choose element > copy > copy as xpath`
 4. Put in the xpath in the folder **page-objects**
 5. Run command : `node ./node_modules/selenium-cucumber-js/index.js -f features/signin.feature`
+
+
+More ? read here [Selenium](https://www.npmjs.com/package/selenium-cucumber-js)
