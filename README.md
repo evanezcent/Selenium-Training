@@ -1,5 +1,5 @@
 # Selenium-Training
-Training automating test using selenium, I do this thing because of my Lecture Task, Really !
+Training automation test using selenium, I do this thing because of my lecture task, Really !
 
 ## How to use 
 
