@@ -14,7 +14,7 @@
             "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 604300
+              "duration": 591700
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "Admin fill Username",
             "result": {
               "status": "passed",
-              "duration": 358000
+              "duration": 249400
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 169300
+              "duration": 182000
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 144100
+              "duration": 209900
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "Admin click Check In",
             "result": {
               "status": "passed",
-              "duration": 280400
+              "duration": 161900
             },
             "line": 11,
             "match": {
@@ -79,7 +79,7 @@
             "name": "Admin fill Nama Lengkap",
             "result": {
               "status": "passed",
-              "duration": 266400
+              "duration": 147900
             },
             "line": 12,
             "match": {
@@ -92,7 +92,7 @@
             "name": "Admin fill NIK",
             "result": {
               "status": "passed",
-              "duration": 230600
+              "duration": 425300
             },
             "line": 13,
             "match": {
@@ -105,7 +105,7 @@
             "name": "Admin select Pilih kamar",
             "result": {
               "status": "passed",
-              "duration": 135500
+              "duration": 222700
             },
             "line": 14,
             "match": {
@@ -118,7 +118,7 @@
             "name": "Admin select fasilitas",
             "result": {
               "status": "passed",
-              "duration": 108000
+              "duration": 168900
             },
             "line": 15,
             "match": {
@@ -131,7 +131,7 @@
             "name": "Admin click button Check In",
             "result": {
               "status": "passed",
-              "duration": 120800
+              "duration": 140800
             },
             "line": 16,
             "match": {
@@ -144,7 +144,7 @@
             "name": "Admin click button Submit Check In",
             "result": {
               "status": "passed",
-              "duration": 120800
+              "duration": 116700
             },
             "line": 17,
             "match": {
@@ -157,7 +157,7 @@
             "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 109900
+              "duration": 114300
             },
             "line": 18,
             "match": {
@@ -168,9 +168,8 @@
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "failed",
-              "duration": 7078935200,
-              "error_message": "TypeError: Cannot read property 'performSelect' of undefined\n    at D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:45:41\n    at ManagedPromise.invokeCallback_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27\n    at D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
+              "status": "passed",
+              "duration": 8613066100
             },
             "hidden": true,
             "match": {
