@@ -5,7 +5,7 @@
       {
         "id": "checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin",
         "keyword": "Scenario",
-        "line": 6,
+        "line": 13,
         "name": "Admin akan menginput data customer yang akan atau sedang checkin",
         "steps": [
           {
@@ -14,7 +14,7 @@
             "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 591700
+              "duration": 952800
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "Admin fill Username",
             "result": {
               "status": "passed",
-              "duration": 249400
+              "duration": 719900
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 182000
+              "duration": 260800
             },
             "line": 9,
             "match": {
@@ -49,11 +49,11 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
+            "keyword": "When ",
             "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 209900
+              "duration": 195900
             },
             "line": 10,
             "match": {
@@ -62,11 +62,11 @@
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click Check In",
+            "keyword": "Then ",
+            "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 161900
+              "duration": 516800
             },
             "line": 11,
             "match": {
@@ -76,14 +76,27 @@
           {
             "arguments": [],
             "keyword": "And ",
+            "name": "Admin click Check In",
+            "result": {
+              "status": "passed",
+              "duration": 182800
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
             "name": "Admin fill Nama Lengkap",
             "result": {
               "status": "passed",
-              "duration": 147900
+              "duration": 158700
             },
-            "line": 12,
+            "line": 15,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:31"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:37"
             }
           },
           {
@@ -92,11 +105,11 @@
             "name": "Admin fill NIK",
             "result": {
               "status": "passed",
-              "duration": 425300
+              "duration": 116600
             },
-            "line": 13,
+            "line": 16,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:37"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:43"
             }
           },
           {
@@ -105,11 +118,11 @@
             "name": "Admin select Pilih kamar",
             "result": {
               "status": "passed",
-              "duration": 222700
+              "duration": 110900
             },
-            "line": 14,
+            "line": 17,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:43"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:49"
             }
           },
           {
@@ -118,11 +131,11 @@
             "name": "Admin select fasilitas",
             "result": {
               "status": "passed",
-              "duration": 168900
+              "duration": 117100
             },
-            "line": 15,
+            "line": 18,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:49"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:55"
             }
           },
           {
@@ -131,11 +144,11 @@
             "name": "Admin click button Check In",
             "result": {
               "status": "passed",
-              "duration": 140800
+              "duration": 166700
             },
-            "line": 16,
+            "line": 19,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:55"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:61"
             }
           },
           {
@@ -144,24 +157,24 @@
             "name": "Admin click button Submit Check In",
             "result": {
               "status": "passed",
-              "duration": 116700
+              "duration": 194200
             },
-            "line": 17,
+            "line": 20,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:61"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:67"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "Admin berada di halaman Home",
+            "name": "Admin berada di halaman Home lagi",
             "result": {
               "status": "passed",
-              "duration": 114300
+              "duration": 144400
             },
-            "line": 18,
+            "line": 21,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:67"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:73"
             }
           },
           {
@@ -169,7 +182,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 8613066100
+              "duration": 8261221100
             },
             "hidden": true,
             "match": {

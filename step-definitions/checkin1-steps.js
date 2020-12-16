@@ -16,9 +16,15 @@ module.exports = function () {
         })
     });
 
-    this.Given(/^Admin click button Login$/, function () {
+    this.When(/^Admin click button Login$/, function () {
         driver.then(function(){
             return page.clickLogin.performClick();
+        })
+    });
+
+    this.Then(/^Admin berada di halaman Home$/, function () {
+        driver.then(function(){
+            return driver.wait(until.elementsLocated(by.xpath("//p[@class='title']")), 10000);
         })
     });
 
@@ -64,7 +70,7 @@ module.exports = function () {
         })
     });
 
-    this.Then(/^Admin berada di halaman Home$/, function () {
+    this.Then(/^Admin berada di halaman Home lagi$/, function () {
         driver.then(function(){
             return driver.wait(until.elementsLocated(by.xpath("//p[@class='title']")), 10000);
         })

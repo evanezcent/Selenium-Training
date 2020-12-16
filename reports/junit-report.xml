@@ -1,33 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" tests="12" failures="0" skipped="0">
+    <testsuite name="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" tests="13" failures="0" skipped="0">
         <properties>
             <property name="URI" value="D:\PROGRAMING\selenium\selenium\features\checkin1.feature">
             </property>
         </properties>
-        <testcase name="Given Browse login page" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0005917">
+        <testcase name="Given Browse login page" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0009528">
         </testcase>
-        <testcase name="And Admin fill Username" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002494">
+        <testcase name="And Admin fill Username" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0007199">
         </testcase>
-        <testcase name="And Admin fill Password" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.000182">
+        <testcase name="And Admin fill Password" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002608">
         </testcase>
-        <testcase name="And Admin click button Login" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002099">
+        <testcase name="When Admin click button Login" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001959">
         </testcase>
-        <testcase name="And Admin click Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001619">
+        <testcase name="Then Admin berada di halaman Home" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0005168">
         </testcase>
-        <testcase name="And Admin fill Nama Lengkap" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001479">
+        <testcase name="And Admin click Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001828">
         </testcase>
-        <testcase name="And Admin fill NIK" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0004253">
+        <testcase name="And Admin fill Nama Lengkap" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001587">
         </testcase>
-        <testcase name="And Admin select Pilih kamar" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002227">
+        <testcase name="And Admin fill NIK" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001166">
         </testcase>
-        <testcase name="And Admin select fasilitas" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001689">
+        <testcase name="And Admin select Pilih kamar" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001109">
         </testcase>
-        <testcase name="And Admin click button Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001408">
+        <testcase name="And Admin select fasilitas" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001171">
         </testcase>
-        <testcase name="When Admin click button Submit Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001167">
+        <testcase name="And Admin click button Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001667">
         </testcase>
-        <testcase name="Then Admin berada di halaman Home" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001143">
+        <testcase name="When Admin click button Submit Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001942">
+        </testcase>
+        <testcase name="Then Admin berada di halaman Home lagi" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001444">
         </testcase>
     </testsuite>
 </testsuites>
