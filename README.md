@@ -10,8 +10,8 @@ Training automation test using selenium, I do this thing because of my lecture t
 5. Run command : `node ./node_modules/selenium-cucumber-js/index.js -f features/[your feature file]`
 
 ## For Collaborator !!!
-- Please make your `**own branch**`
-- Don't make pull `**request**`
+- Please make your **`own branch`**
+- Don't make **`pull request`**
 - But if you want to make, assign to me **evanezcent**
 
 > It's because the submitting format that and avoid error because a same scenario
