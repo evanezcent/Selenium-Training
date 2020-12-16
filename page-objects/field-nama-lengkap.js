@@ -16,6 +16,6 @@ module.exports = {
         var selector = page.fieldNamaLengkap.elements.fieldNamaLengkap;
  
         // return a promise so the calling function knows the task has completed
-        return driver.findElement(selector).sendKeys(shared.testData.nama_lengkap);
+        return driver.findElement(selector).sendKeys(shared.akun1.nama);
     }
 };

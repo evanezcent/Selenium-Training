@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" tests="19" failures="0" skipped="0">
+    <testsuite name="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" tests="12" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/testing/features/laporan.feature">
+            <property name="URI" value="D:\PROGRAMING\selenium\selenium\features\checkin1.feature">
             </property>
         </properties>
-        <testcase name="Given Browse login page" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0006683">
+        <testcase name="Given Browse login page" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0006043">
         </testcase>
-        <testcase name="And Admin fill Username" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0002703">
+        <testcase name="And Admin fill Username" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.000358">
         </testcase>
-        <testcase name="And Admin fill Password" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.000154">
+        <testcase name="And Admin fill Password" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001693">
         </testcase>
-        <testcase name="And Admin click button Login" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0004495">
+        <testcase name="And Admin click button Login" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001441">
         </testcase>
-        <testcase name="And Admin click Check In" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0002983">
+        <testcase name="And Admin click Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002804">
         </testcase>
-        <testcase name="And Admin fill Nama Lengkap" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001924">
+        <testcase name="And Admin fill Nama Lengkap" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002664">
         </testcase>
-        <testcase name="And Admin fill NIK" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001488">
+        <testcase name="And Admin fill NIK" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0002306">
         </testcase>
-        <testcase name="And Admin select Pilih kamar" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001192">
+        <testcase name="And Admin select Pilih kamar" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001355">
         </testcase>
-        <testcase name="And Admin select fasilitas" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001295">
+        <testcase name="And Admin select fasilitas" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.000108">
         </testcase>
-        <testcase name="And Admin click button Check In" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0002202">
+        <testcase name="And Admin click button Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001208">
         </testcase>
-        <testcase name="And Admin click button Submit Check In" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0002437">
+        <testcase name="When Admin click button Submit Check In" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001208">
         </testcase>
-        <testcase name="And Admin click Check Out" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0002126">
-        </testcase>
-        <testcase name="And Admin click Detail dengan NIK yang sama" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.000209">
-        </testcase>
-        <testcase name="And Admin click button Check Out" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001349">
-        </testcase>
-        <testcase name="And Admin click button Submit Check Out" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001352">
-        </testcase>
-        <testcase name="When Admin click button Home" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001125">
-        </testcase>
-        <testcase name="Then Admin berada di halaman Home" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0000924">
-        </testcase>
-        <testcase name="When Admin click Laporan" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0000977">
-        </testcase>
-        <testcase name="Then Admin melihat data pelanggan-pelanggan yang sudah Check Out" classname="laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar" time="0.0001465">
+        <testcase name="Then Admin berada di halaman Home" classname="checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin" time="0.0001099">
         </testcase>
     </testsuite>
 </testsuites>

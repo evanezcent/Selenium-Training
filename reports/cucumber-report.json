@@ -1,12 +1,12 @@
 [
   {
-    "description": "  Admin dapat melihat data laporan dan dapat melihat detailnya. Admin harus login terlebih dahulu untuk menggunakan fitur ini",
+    "description": "  Admin dapat menambah customer yang sedang checkin. Admin harus login terlebih dahulu untuk menggunakan fitur ini",
     "elements": [
       {
-        "id": "laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar",
+        "id": "checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin",
         "keyword": "Scenario",
-        "line": 25,
-        "name": "Cek Apakah Admin dapat melihat seluruh informasi transaksi data pelanggan,kamar,dan fasilitas yang diambil beserta pembayaran dengan benar",
+        "line": 6,
+        "name": "Admin akan menginput data customer yang akan atau sedang checkin",
         "steps": [
           {
             "arguments": [],
@@ -14,11 +14,11 @@
             "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 668300
+              "duration": 604300
             },
             "line": 7,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:3"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:3"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "Admin fill Username",
             "result": {
               "status": "passed",
-              "duration": 270300
+              "duration": 358000
             },
             "line": 8,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:7"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:7"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 154000
+              "duration": 169300
             },
             "line": 9,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:13"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:13"
             }
           },
           {
@@ -53,11 +53,11 @@
             "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 449500
+              "duration": 144100
             },
             "line": 10,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:19"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:19"
             }
           },
           {
@@ -66,11 +66,11 @@
             "name": "Admin click Check In",
             "result": {
               "status": "passed",
-              "duration": 298300
+              "duration": 280400
             },
             "line": 11,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:25"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:25"
             }
           },
           {
@@ -79,11 +79,11 @@
             "name": "Admin fill Nama Lengkap",
             "result": {
               "status": "passed",
-              "duration": 192400
+              "duration": 266400
             },
             "line": 12,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:31"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:31"
             }
           },
           {
@@ -92,11 +92,11 @@
             "name": "Admin fill NIK",
             "result": {
               "status": "passed",
-              "duration": 148800
+              "duration": 230600
             },
             "line": 13,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:37"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:37"
             }
           },
           {
@@ -105,11 +105,11 @@
             "name": "Admin select Pilih kamar",
             "result": {
               "status": "passed",
-              "duration": 119200
+              "duration": 135500
             },
             "line": 14,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:43"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:43"
             }
           },
           {
@@ -118,11 +118,11 @@
             "name": "Admin select fasilitas",
             "result": {
               "status": "passed",
-              "duration": 129500
+              "duration": 108000
             },
             "line": 15,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:49"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:49"
             }
           },
           {
@@ -131,89 +131,24 @@
             "name": "Admin click button Check In",
             "result": {
               "status": "passed",
-              "duration": 220200
+              "duration": 120800
             },
             "line": 16,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:55"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click button Submit Check In",
-            "result": {
-              "status": "passed",
-              "duration": 243700
-            },
-            "line": 17,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:61"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click Check Out",
-            "result": {
-              "status": "passed",
-              "duration": 212600
-            },
-            "line": 18,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:67"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click Detail dengan NIK yang sama",
-            "result": {
-              "status": "passed",
-              "duration": 209000
-            },
-            "line": 19,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:73"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click button Check Out",
-            "result": {
-              "status": "passed",
-              "duration": 134900
-            },
-            "line": 20,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:79"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "Admin click button Submit Check Out",
-            "result": {
-              "status": "passed",
-              "duration": 135200
-            },
-            "line": 21,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:85"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:55"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "Admin click button Home",
+            "name": "Admin click button Submit Check In",
             "result": {
               "status": "passed",
-              "duration": 112500
+              "duration": 120800
             },
-            "line": 22,
+            "line": 17,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:91"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:61"
             }
           },
           {
@@ -222,49 +157,24 @@
             "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 92400
+              "duration": 109900
             },
-            "line": 23,
+            "line": 18,
             "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:97"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "Admin click Laporan",
-            "result": {
-              "status": "passed",
-              "duration": 97700
-            },
-            "line": 26,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:103"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "Admin melihat data pelanggan-pelanggan yang sudah Check Out",
-            "result": {
-              "status": "passed",
-              "duration": 146500
-            },
-            "line": 27,
-            "match": {
-              "location": "C:\\testing\\step-definitions\\laporan-steps.js:109"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:67"
             }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
-              "status": "passed",
-              "duration": 9848210700
+              "status": "failed",
+              "duration": 7078935200,
+              "error_message": "TypeError: Cannot read property 'performSelect' of undefined\n    at D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:45:41\n    at ManagedPromise.invokeCallback_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:1384:14)\n    at TaskQueue.execute_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:3092:14)\n    at TaskQueue.executeNext_ (D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:3075:27)\n    at D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:2935:27\n    at D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-webdriver\\lib\\promise.js:676:7\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)"
             },
             "hidden": true,
             "match": {
-              "location": "C:\\testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -272,11 +182,11 @@
         "type": "scenario"
       }
     ],
-    "id": "laporan",
+    "id": "checkin1",
     "keyword": "Feature",
     "line": 3,
-    "name": "laporan",
+    "name": "checkin1",
     "tags": [],
-    "uri": "C:/testing/features/laporan.feature"
+    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\checkin1.feature"
   }
 ]
