@@ -1,76 +1,258 @@
 [
   {
-    "description": "  As a user I want to be able to SignIn\n  on Vutura's user website",
+    "description": "  Admin dapat melihat data laporan dan dapat melihat detailnya. Admin harus login terlebih dahulu untuk menggunakan fitur ini",
     "elements": [
       {
-        "id": "signin-on-the-vutura-website;user-success-login-to-website",
+        "id": "laporan;cek-apakah-admin-dapat-melihat-seluruh-informasi-transaksi-data-pelanggan,kamar,dan-fasilitas-yang-diambil-beserta-pembayaran-dengan-benar",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "User Success login to website",
+        "line": 25,
+        "name": "Cek Apakah Admin dapat melihat seluruh informasi transaksi data pelanggan,kamar,dan fasilitas yang diambil beserta pembayaran dengan benar",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "Browse signin page",
+            "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 564200
+              "duration": 668300
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill Username",
+            "result": {
+              "status": "passed",
+              "duration": 270300
             },
             "line": 8,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:3"
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:7"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "User fill email",
+            "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 180200
+              "duration": 154000
             },
             "line": 9,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:7"
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:13"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "User fill password",
+            "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 296200
+              "duration": 449500
             },
             "line": 10,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:13"
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click Check In",
+            "result": {
+              "status": "passed",
+              "duration": 298300
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill Nama Lengkap",
+            "result": {
+              "status": "passed",
+              "duration": 192400
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill NIK",
+            "result": {
+              "status": "passed",
+              "duration": 148800
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin select Pilih kamar",
+            "result": {
+              "status": "passed",
+              "duration": 119200
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin select fasilitas",
+            "result": {
+              "status": "passed",
+              "duration": 129500
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click button Check In",
+            "result": {
+              "status": "passed",
+              "duration": 220200
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click button Submit Check In",
+            "result": {
+              "status": "passed",
+              "duration": 243700
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click Check Out",
+            "result": {
+              "status": "passed",
+              "duration": 212600
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click Detail dengan NIK yang sama",
+            "result": {
+              "status": "passed",
+              "duration": 209000
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:73"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click button Check Out",
+            "result": {
+              "status": "passed",
+              "duration": 134900
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:79"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click button Submit Check Out",
+            "result": {
+              "status": "passed",
+              "duration": 135200
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:85"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "User click masuk button",
+            "name": "Admin click button Home",
             "result": {
               "status": "passed",
-              "duration": 190800
+              "duration": 112500
             },
-            "line": 11,
+            "line": 22,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:19"
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:91"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "User in dashboard page",
+            "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 8007137100
+              "duration": 92400
             },
-            "line": 12,
+            "line": 23,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:25"
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:97"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Admin click Laporan",
+            "result": {
+              "status": "passed",
+              "duration": 97700
+            },
+            "line": 26,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Admin melihat data pelanggan-pelanggan yang sudah Check Out",
+            "result": {
+              "status": "passed",
+              "duration": 146500
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\testing\\step-definitions\\laporan-steps.js:109"
             }
           },
           {
@@ -78,11 +260,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 112406900
+              "duration": 9848210700
             },
             "hidden": true,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "C:\\testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -90,11 +272,11 @@
         "type": "scenario"
       }
     ],
-    "id": "signin-on-the-vutura-website",
+    "id": "laporan",
     "keyword": "Feature",
     "line": 3,
-    "name": "SignIn on the Vutura website",
+    "name": "laporan",
     "tags": [],
-    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\signin.feature"
+    "uri": "C:/testing/features/laporan.feature"
   }
 ]
