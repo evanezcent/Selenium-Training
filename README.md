@@ -12,7 +12,7 @@ Training automation test using selenium, I do this thing because of my lecture t
 ## For Collaborator !!!
 - Please make your **`own branch`**
 - Don't make **`pull request`**
-- But if you want to make, assign to me **evanezcent**
+- But if you want to make PR, assign to me **evanezcent**
 
 > It's because the submitting format that and avoid error because a same scenario
 
