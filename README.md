@@ -5,9 +5,11 @@ Training automation test using selenium, I do this thing because of my lecture t
 
 1. `npm install --save`
 2. Add your own web url
-3. Search element by `Inspect element > choose element > copy > copy as xpath`
-4. Put in the xpath in the folder **page-objects**
-5. Run command : `node ./node_modules/selenium-cucumber-js/index.js -f features/[your feature file]`
+3. Change the case number in the `checkin1-steps`
+4. Change the `index` on every field nama, nik, fasilitas, and kamar
+5. Search element by `Inspect element > choose element > copy > copy as xpath`
+6. Put in the xpath in the folder **page-objects**
+7. Run command : `node ./node_modules/selenium-cucumber-js/index.js -f features/[your feature file]`
 
 ## For Collaborator !!!
 - Please make your **`own branch`**
