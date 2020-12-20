@@ -16,6 +16,6 @@ module.exports = {
         var selector = page.fieldEmail.elements.fieldEmail
  
         // return a promise so the calling function knows the task has completed
-        return driver.findElement(selector).sendKeys(shared.akun1.email);
+        return driver.findElement(selector).sendKeys(shared.akun1[0].email);
     }
 };

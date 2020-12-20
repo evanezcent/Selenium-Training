@@ -3,7 +3,7 @@
     "description": "  Admin dapat menambah customer yang sedang checkin. Admin harus login terlebih dahulu untuk menggunakan fitur ini",
     "elements": [
       {
-        "id": "checkin1;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin",
+        "id": "checkin8;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin",
         "keyword": "Scenario",
         "line": 13,
         "name": "Admin akan menginput data customer yang akan atau sedang checkin",
@@ -14,7 +14,7 @@
             "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 952800
+              "duration": 699600
             },
             "line": 7,
             "match": {
@@ -27,7 +27,7 @@
             "name": "Admin fill Username",
             "result": {
               "status": "passed",
-              "duration": 719900
+              "duration": 252800
             },
             "line": 8,
             "match": {
@@ -40,7 +40,7 @@
             "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 260800
+              "duration": 316400
             },
             "line": 9,
             "match": {
@@ -53,7 +53,7 @@
             "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 195900
+              "duration": 266400
             },
             "line": 10,
             "match": {
@@ -66,7 +66,7 @@
             "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 516800
+              "duration": 188300
             },
             "line": 11,
             "match": {
@@ -76,10 +76,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin click Check In",
+            "name": "Admin click Check In Case 8",
             "result": {
               "status": "passed",
-              "duration": 182800
+              "duration": 135000
             },
             "line": 14,
             "match": {
@@ -89,10 +89,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin fill Nama Lengkap",
+            "name": "Admin fill Nama Lengkap Case 8",
             "result": {
               "status": "passed",
-              "duration": 158700
+              "duration": 283700
             },
             "line": 15,
             "match": {
@@ -102,10 +102,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin fill NIK",
+            "name": "Admin fill NIK Case 8",
             "result": {
               "status": "passed",
-              "duration": 116600
+              "duration": 147800
             },
             "line": 16,
             "match": {
@@ -115,10 +115,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin select Pilih kamar",
+            "name": "Admin select Pilih kamar Case 8",
             "result": {
               "status": "passed",
-              "duration": 110900
+              "duration": 178300
             },
             "line": 17,
             "match": {
@@ -128,10 +128,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin select fasilitas",
+            "name": "Admin select fasilitas Case 8",
             "result": {
               "status": "passed",
-              "duration": 117100
+              "duration": 125100
             },
             "line": 18,
             "match": {
@@ -141,10 +141,10 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "Admin click button Check In",
+            "name": "Admin click button Check In Case 8",
             "result": {
               "status": "passed",
-              "duration": 166700
+              "duration": 479800
             },
             "line": 19,
             "match": {
@@ -154,10 +154,10 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "Admin click button Submit Check In",
+            "name": "Admin click button Submit Check In Case 8",
             "result": {
               "status": "passed",
-              "duration": 194200
+              "duration": 195000
             },
             "line": 20,
             "match": {
@@ -167,10 +167,10 @@
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "Admin berada di halaman Home lagi",
+            "name": "Admin berada di halaman Home lagi Case 8",
             "result": {
               "status": "passed",
-              "duration": 144400
+              "duration": 158500
             },
             "line": 21,
             "match": {
@@ -182,7 +182,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 8261221100
+              "duration": 8557123900
             },
             "hidden": true,
             "match": {
@@ -194,11 +194,11 @@
         "type": "scenario"
       }
     ],
-    "id": "checkin1",
+    "id": "checkin8",
     "keyword": "Feature",
     "line": 3,
-    "name": "checkin1",
+    "name": "checkin8",
     "tags": [],
-    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\checkin1.feature"
+    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\checkin8.feature"
   }
 ]

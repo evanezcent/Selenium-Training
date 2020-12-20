@@ -16,6 +16,6 @@ module.exports = {
         var selector = page.fieldNik.elements.fieldNik;
  
         // return a promise so the calling function knows the task has completed
-        return driver.findElement(selector).sendKeys(shared.akun1.nik);
+        return driver.findElement(selector).sendKeys(shared.akun1[7].nik);
     }
 };

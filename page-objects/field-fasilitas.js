@@ -3,7 +3,7 @@ module.exports = {
     url: 'http://localhost/IMPAL/SistemInformasiHotel/CheckIn',
 
     elements: {
-        fieldFasilitas: by.xpath("//option[@value='"+shared.akun1.fasilitas+"']")
+        fieldFasilitas: by.xpath("//option[@value='"+shared.akun1[7].fasilitas+"']")
     },
  
     /**
