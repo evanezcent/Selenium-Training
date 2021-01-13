@@ -3,7 +3,7 @@ module.exports = {
     url: 'http://localhost/IMPAL/SistemInformasiHotel/',
  
     elements: {
-        fieldPassword: by.xpath("//input[@id='exampleInputPassword1']")
+        fieldUsername: by.xpath("//input[@id='exampleInputEmail1']")
     },
  
     /**
@@ -13,9 +13,9 @@ module.exports = {
      */
     performFill: function () {
  
-        var selector = page.fieldPassword.elements.fieldPassword;
+        var selector = page.fieldUsername.elements.fieldUsername;
  
         // return a promise so the calling function knows the task has completed
-        return driver.findElement(selector).sendKeys(shared.akun1[0].password);
+        return driver.findElement(selector).sendKeys(shared.akun1[0].email);
     }
 };

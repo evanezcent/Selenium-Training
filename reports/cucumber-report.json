@@ -1,76 +1,180 @@
 [
   {
-    "description": "  As a user I want to be able to SignIn\n  on Vutura's user website",
+    "description": "  Admin dapat menambah customer yang sedang checkin. Admin harus login terlebih dahulu untuk menggunakan fitur ini",
     "elements": [
       {
-        "id": "signin-on-the-vutura-website;user-success-login-to-website",
+        "id": "checkin8;admin-akan-menginput-data-customer-yang-akan-atau-sedang-checkin",
         "keyword": "Scenario",
-        "line": 7,
-        "name": "User Success login to website",
+        "line": 13,
+        "name": "Admin akan menginput data customer yang akan atau sedang checkin",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "Browse signin page",
+            "name": "Browse login page",
             "result": {
               "status": "passed",
-              "duration": 564200
+              "duration": 699600
+            },
+            "line": 7,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill Username",
+            "result": {
+              "status": "passed",
+              "duration": 252800
             },
             "line": 8,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:3"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:7"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "User fill email",
+            "name": "Admin fill Password",
             "result": {
               "status": "passed",
-              "duration": 180200
+              "duration": 316400
             },
             "line": 9,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:7"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "User fill password",
-            "result": {
-              "status": "passed",
-              "duration": 296200
-            },
-            "line": 10,
-            "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:13"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:13"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "User click masuk button",
+            "name": "Admin click button Login",
             "result": {
               "status": "passed",
-              "duration": 190800
+              "duration": 266400
             },
-            "line": 11,
+            "line": 10,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:19"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:19"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "User in dashboard page",
+            "name": "Admin berada di halaman Home",
             "result": {
               "status": "passed",
-              "duration": 8007137100
+              "duration": 188300
             },
-            "line": 12,
+            "line": 11,
             "match": {
-              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\signin-steps.js:25"
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click Check In Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 135000
+            },
+            "line": 14,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:31"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill Nama Lengkap Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 283700
+            },
+            "line": 15,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:37"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin fill NIK Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 147800
+            },
+            "line": 16,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin select Pilih kamar Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 178300
+            },
+            "line": 17,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:49"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin select fasilitas Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 125100
+            },
+            "line": 18,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "Admin click button Check In Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 479800
+            },
+            "line": 19,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Admin click button Submit Check In Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 195000
+            },
+            "line": 20,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Admin berada di halaman Home lagi Case 8",
+            "result": {
+              "status": "passed",
+              "duration": 158500
+            },
+            "line": 21,
+            "match": {
+              "location": "D:\\PROGRAMING\\selenium\\selenium\\step-definitions\\checkin1-steps.js:73"
             }
           },
           {
@@ -78,7 +182,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 112406900
+              "duration": 8557123900
             },
             "hidden": true,
             "match": {
@@ -90,11 +194,11 @@
         "type": "scenario"
       }
     ],
-    "id": "signin-on-the-vutura-website",
+    "id": "checkin8",
     "keyword": "Feature",
     "line": 3,
-    "name": "SignIn on the Vutura website",
+    "name": "checkin8",
     "tags": [],
-    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\signin.feature"
+    "uri": "D:\\PROGRAMING\\selenium\\selenium\\features\\checkin8.feature"
   }
 ]
